@@ -1,3 +1,4 @@
 #background {
-  width: calc(100vw * 0.3333);
+  width: calc(33.33333vw);
+  height: 100vh;
 }
