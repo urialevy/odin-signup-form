@@ -2,3 +2,13 @@
   width: calc(33.33333vw);
   height: 100vh;
 }
+
+form {
+  width: calc(66.6666666666666vw);
+  margin-left: 5%;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
