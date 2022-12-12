@@ -14,11 +14,31 @@
       <div id="right">
         <form>
           <h1>Title/call to action</h1>
+          <h2>Lorem ipsum whatever this is meant to be</h2>
           <div id="inputFields">
-            <div id="leftFields">First Name<br /></div>
-            <div id="rightFields"></div>
-            <input type="text" />
+            <fieldset>
+              <label for="firstName">First Name</label><br />
+              <input type="text" id="firstName" name="firstName" /> <br />
+              <br />
+              <label for="phone">Phone Number</label><br />
+              <input type="tel" id="phone" name="phone" /> <br /><br />
+              <label for="password">Password</label> <br />
+              <input type="password" id="password" name="password" />
+            </fieldset>
+            <fieldset>
+              <label for="lastName">Last Name</label><br />
+              <input type="text" id="lastName" name="lastName" /> <br /><br />
+              <label for="email">Email address</label><br />
+              <input type="email" id="email" name="email" /><br /><br />
+              <label for="passwordConfirm">Confirm Password<br /></label>
+              <input
+                for="passwordConfirm"
+                id="passwordConfirm"
+                name="passwordConfirm"
+              />
+            </fieldset>
           </div>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </div>

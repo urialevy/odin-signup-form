@@ -6,9 +6,17 @@
 form {
   width: calc(66.6666666666666vw);
   margin-left: 5%;
+  border-style: hidden;
 }
 
 #container {
   display: flex;
   flex-direction: row;
+}
+
+#inputFields {
+  display: flex;
+}
+fieldset {
+  border-style: hidden;
 }
