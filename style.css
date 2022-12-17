@@ -1,4 +1,11 @@
-#background {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+@font-face {
+  font-family: Norse;
+  src: url("Norse-Bold.otf");
+}
+
+/* #background {
   width: calc(33.33333vw);
   height: 100vh;
 }
@@ -45,4 +52,4 @@ input {
   border-radius: 3px;
   width: calc(0.1 * 100vw);
   border-style: none;
-}
+} */
