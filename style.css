@@ -5,11 +5,70 @@
   src: url("Norse-Bold.otf");
 }
 
-/* #background {
-  width: calc(33.33333vw);
-  height: 100vh;
+@font-face {
+  font-family: Norse;
+  font-weight: bold;
+  src: url("Norse-Bold.otf");
 }
 
+#container {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  max-width: 90%;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px 2px #ddd;
+  overflow: hidden;
+}
+/* Left section */
+#left {
+  background-image: url("bg-img.jpg");
+  height: 100%;
+  width: 35%;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  margin-top: 30%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 150px;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Norse;
+  font-size: 3rem;
+}
+
+#logo img {
+  max-height: 100%;
+}
+/* Right section */
+
+main {
+  height: 100%;
+  max-width: 65%;
+  background-color: #fafafa;
+}
+
+form {
+  height: 77%;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.formCell {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  width: 33%;
+}
+
+/* 
 form {
   width: calc(66.6666666666666vw);
   margin-left: 5%;
