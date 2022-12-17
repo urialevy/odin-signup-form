@@ -11,6 +11,20 @@
   src: url("Norse-Bold.otf");
 }
 
+/* Entire webpage */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
 #container {
   display: flex;
   align-items: center;
@@ -33,6 +47,7 @@
   background: rgba(0, 0, 0, 0.5);
   height: 150px;
   padding: 1rem;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: white;
@@ -55,6 +70,22 @@ form {
   height: 77%;
 }
 
+#form-container {
+  background-color: #fff;
+  padding: 2rem 2rem;
+  box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.5);
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+#form-container p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
 fieldset {
   border: none;
   display: flex;
@@ -66,6 +97,18 @@ fieldset {
   flex-direction: column;
   text-transform: uppercase;
   width: 33%;
+}
+
+.form-cell label {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+form input {
+  border: 1px solid #d6d9dc;
+  border-radius: 4px;
+  padding: 7px;
+  font-size: 14px;
 }
 
 /* 
